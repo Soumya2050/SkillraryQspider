@@ -10,7 +10,7 @@ public class HomePage {
 	@FindBy(xpath = "//img[@alt='SkillRary']")
 	private WebElement logo;
 	
-	@FindBy(xpath = "//a[text()=' GEARS ']")
+	@FindBy(xpath = "//li[@class='dropdown']/a[text()=' GEARS ']")
 	private WebElement gearsTab;
 	
 	@FindBy(xpath = "//ul[@class='dropdown-menu gear_menu']/descendant::a[text()=' SkillRary Demo APP']")
