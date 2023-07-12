@@ -23,7 +23,7 @@ public class AddPythonToMyCart extends BaseClass{
 		web.scroolTitleElement(test.getFacebookIcon());
 		test.clickfacebook();
 		soft.assertAll();
-		/////
+	
 	}
 
 }
